@@ -1,0 +1,32 @@
+body{
+    background-color: aqua; /* Cor de fundo da pagina */
+}
+.texto{
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 35px; /* altura entre linhas */
+    color: rgb(23, 248, 3); /* cor da fonte */
+    font-style: italic; /* estilo da fonte */
+    font-weight: bold; /* largura da fonte */
+    text-align: center; /* alinhamento de texto */
+}
+.texto a{
+    color: rgb(247, 2, 165); /* mudar a cor somente do link */
+    text-decoration: none; /* retira o sublinhado do link */
+    text-transform: uppercase; /* deixa tudo em maiusculo somente o link */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /* muda a fonte apenas do link */
+}
+.borda{
+    width: 500px; /* Largura */
+    margin: auto; /* espaçamento interno */
+    border: 1px solid #00dc49 ; /* borda: tamanho , tipo , cor */
+    /* margin: 0 auto; / espaçamento externo*/
+    margin-top: 40px ;
+    /* top left right bottom */
+    padding: 20px; /* espaçamento interno */
+    padding-top: 40px; /* espaçamento em cima */
+    padding-bottom: 40 px; /* espaçamento nas laterais */
+ }
+.lista{
+    list-style-position: inside; /* Posição do marcador inside/outside */
+    list-style-type: square; /* muda a marcação antes da palavra */
+}
